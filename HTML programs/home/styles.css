@@ -1,0 +1,111 @@
+title{
+font-weight:bold;
+}
+
+body{
+background:dodgerblue;
+font-family:arial;
+}
+
+#head{
+text-align:left;
+font-size:40px;
+text-decoration:underline;
+text-decoration:bold;
+}
+
+div{
+display:flex
+flex-flow:row wrap-reverse;
+margin:20px;
+}
+
+#ingred{
+text-align:left;
+padding:30px;
+text-decoration:underline;
+}
+
+.ing{
+color:white;
+font-size:20px;
+text-decoration:underline;
+padding:35px;
+}
+
+span{
+font-size:30px;
+font-family:Footlight MT;
+text-decoration:italic
+
+}
+
+.one{
+font-size:30px;
+text-decoration:italic;
+font-family:Freestyle Script;
+padding:35px;
+}
+
+.two{
+font-size:30px;
+text-decoration:underline;
+font-family:Freestyle Script;
+padding:35px;
+}
+
+
+.one{
+font-size:30px;
+color:red;
+font-family:arial;
+padding:35px;
+}
+
+#steps{
+text-align:left;
+padding:30px;
+text-decoration:underline;
+}
+
+.ste{
+font-size:30px;
+text-decoration:underline;
+font-family:Freestyle Script;
+padding:35px;
+}
+
+
+#recipes{
+text-align:left;
+padding:30px;
+text-decoration:underline;
+}
+.more{
+font-size:30px;
+font-family:Eras ITC;
+}
+
+@media (min-width: 0px){
+body{
+background-color:red;
+font-family:Courier New;
+text-size:20px;
+}
+}
+
+@media (min-width:401px){
+body{
+background-color:green;
+font-family:Roman;
+text-size:40px;
+}
+}
+
+@media (min-width:750px){
+body{
+background-color:yellow;
+font-family:Forte;
+text-size:60px;
+}
+}
